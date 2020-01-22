@@ -1,0 +1,19 @@
+{
+  "name": "tejashdatta",
+  "version": "1.0.0",
+  "description": "Tejash Datta's personal website that showcases his projects, research and work experience, and specifies other relevant information about him.",
+  "author": "Tejash Datta",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.6.3"
+  }
+}
