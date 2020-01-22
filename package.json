@@ -8,10 +8,11 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "release": "git checkout master && git checkout source:dist/* && git add . && git commit -m 'test' && git push"
   },
   "dependencies": {
-    "nuxt": "^2.0.0"
+    "nuxt": "^2.11.0"
   },
   "devDependencies": {
     "@nuxtjs/vuetify": "^1.6.3"
