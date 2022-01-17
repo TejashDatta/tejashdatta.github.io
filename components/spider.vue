@@ -50,6 +50,7 @@ export default {
   width: 121px;
   position: relative;
   top: 5px;
+  white-space: nowrap;
 }
 .links a {
   display: block;
