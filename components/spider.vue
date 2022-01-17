@@ -20,8 +20,8 @@
 export default {
   data: () => ({
     links: [
-      { label: "Projects", path: "/projects" },
-      { label: "Research", path: "/research-experience" },
+      { label: "Work Exp.", path: "/work-experience" },
+      { label: "Projects", path: "/personal-projects" },
       { label: "Education", path: "/education" },
       {
         label: "Resume",
@@ -61,10 +61,10 @@ export default {
   color: #ffc107;
 }
 .links :nth-child(1) {
-  transform: translate(-5px, 21px) rotate(13deg);
+  transform: translate(-18px, 21px) rotate(13deg);
 }
 .links :nth-child(2) {
-  transform: translate(-26px, 23px) rotate(8deg);
+  transform: translate(-10px, 26px) rotate(8deg);
 }
 .links :nth-child(3) {
   transform: translate(-28px, 29px);

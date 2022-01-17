@@ -12,6 +12,7 @@
             <h2 class="headline">St. Xavier's College, Kolkata</h2>
             <h3 class="title secondary--text">BSc. Computer Science (Honours)</h3>
             <strong class="mr-1">CGPA:</strong>8.26
+            <div><v-icon>mdi-map-marker</v-icon>Kolkata, India</div>
           </div>
         </v-timeline-item>
       </v-timeline>

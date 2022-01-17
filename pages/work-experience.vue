@@ -8,15 +8,16 @@
             {{item.title}}:
             <span class="primary--text ml-1">{{item.role}}</span>
           </v-card-title>
+          <div class="px-4 subtitle-1 secondary--text"><v-icon color="secondary">mdi-map-marker</v-icon> {{item.location}}</div>
           <div class="px-4 subtitle-1 grey--text text--lighten-1">{{item.time}}</div>
-          <v-card-text class="pb-0 text-justify">{{item.desc}}</v-card-text>
+          <v-card-text class="pb-0 text-justify" v-html="item.desc" />
           <v-spacer />
           <v-card-actions class="d-flex justify-end">
             <a
               class="secondary--text d-inline-block px-2 pb-1"
               :href="item.link"
               target="_blank"
-            >{{item.link | sitename}}</a>
+            >Website</a>
           </v-card-actions>
         </v-card>
       </v-col>
@@ -32,26 +33,28 @@ export default {
   data: () => ({
     items: [
       {
-        title: "Kolkata Sanved",
-        role: "Volunteer",
-        time: "Jun. 2018",
-        link: "http://www.kolkatasanved.org",
-        desc: `Volunteered at an NGO which helps in the mental rehabilitation of
-       survivors of trafficking and violence through dance movement therapy. Completed office responsibilities such as maintaining files, 
-       data and document entry, writing reports and translating case studies.`
-      },
-      {
-        title: "iWriter",
-        role: "Content Writer",
-        time: "Dec. 2016 - Mar. 2018",
-        link: "http://www.iwriter.com",
-        desc: `Wrote hundreds of articles of varying lengths on a wide array of topics
-       as a freelance content writer. Most commonly wrote listicle blog posts, SEO posts and reports.`
+        title: "GA Technologies",
+        role: "Android App Developer",
+        location: "Tokyo, Japan",
+        time: "April 2021 - Present",
+        link: "https://www.ga-tech.co.jp/en/",
+        desc: `<ul>
+                <li>
+                  Trained in android development in Kotlin by creating practice apps that were reviewed by android and iOS developers with several years of experience in developing production grade apps.<br /> 
+                  Learnt about MVVM & MVP architectures, state management, lifecycle, RxJava, unit testing, etc.
+                </li>
+                <li>
+                  Received basic training as a full stack developer in the use of ruby, ruby on rails, css, javascript, docker & shell scripting.
+                </li>
+                <li>
+                  Communicated about software development challenges in a foreign language, Japanese.
+                </li>
+                <li>
+                  Learnt about the real estate industry in Japan.
+                </li>
+              </ul>`
       }
     ]
-  }),
-  filters: {
-    sitename: v => v.slice(11)
-  }
+  })
 };
 </script>

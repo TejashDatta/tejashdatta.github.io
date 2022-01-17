@@ -39,31 +39,15 @@ export default {
         link: "mailto:tejashdatta@gmail.com",
         stay: true
       },
-      // {
-      //   icon: "mdi-phone-outline",
-      //   label: "+91 9862xxxxx",
-      //   link: "tel:+919862xxxxx",
-      //   stay: true
-      // },
       {
-        icon: "mdi-linkedin-box",
+        icon: "mdi-linkedin",
         label: "LinkedIn",
         link: "https://www.linkedin.com/in/tejash-datta"
       },
       {
-        icon: "mdi-github-circle",
+        icon: "mdi-github",
         label: "Github",
         link: "https://github.com/TejashDatta"
-      },
-      {
-        icon: "mdi-facebook",
-        label: "Facebook",
-        link: "https://www.facebook.com/tejash.datta"
-      },
-      {
-        icon: "mdi-instagram",
-        label: "Instagram",
-        link: "https://www.instagram.com/tejashnottejas/"
       }
     ]
   }),
