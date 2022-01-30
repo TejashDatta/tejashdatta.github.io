@@ -110,7 +110,7 @@ export default {
         as books, appliances, equipment, etc. and put up their own
         unused items for rent. Users can also book experiences with other people such as cooking, gaming, dancing and more.`,
         tech: ["Vue.js", "Vuetify", "Firebase"],
-        site: "https://rentaleasy.in",
+        site: "https://rental-easy.web.app/",
         github: null
       },
       {
