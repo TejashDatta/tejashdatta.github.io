@@ -31,6 +31,7 @@ export default {
     index: 0,
     langs: [
       { name: "English", label: "ENG" },
+      { name: "German", label: "Deutsch", level: "Goethe C1" },
       { name: "Japanese", label: "日本語", level: "JLPT N2" },
       { name: "Hindi", label: "हिंदी" },
       { name: "Bengali", label: "বাংলা" }

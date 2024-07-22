@@ -2,7 +2,7 @@
   <div>
     <h1 class="mb-5">Work Experience</h1>
     <v-row>
-      <v-col cols="12" sm="6" v-for="item in items" :key="item.title">
+      <v-col cols="12" sm="8" v-for="item in items" :key="item.title">
         <v-card height="100%" class="d-flex flex-column">
           <v-card-title>
             {{item.title}}:
@@ -10,7 +10,7 @@
           </v-card-title>
           <div class="px-4 subtitle-1 secondary--text"><v-icon color="secondary">mdi-map-marker</v-icon> {{item.location}}</div>
           <div class="px-4 subtitle-1 grey--text text--lighten-1">{{item.time}}</div>
-          <v-card-text class="pb-0 text-justify" v-html="item.desc" />
+          <v-card-text class="pb-0" v-html="item.desc" />
           <v-spacer />
           <v-card-actions class="d-flex justify-end">
             <a
@@ -36,21 +36,29 @@ export default {
         title: "GA Technologies",
         role: "Android App Developer",
         location: "Tokyo, Japan",
-        time: "April 2021 - Present",
+        time: "October 2020 - October 2023",
         link: "https://www.ga-tech.co.jp/en/",
         desc: `<ul>
                 <li>
-                  Trained in android development in Kotlin by creating practice apps that were reviewed by android and iOS developers with several years of experience in developing production grade apps.<br /> 
-                  Learnt about MVVM & MVP architectures, state management, lifecycle, RxJava, unit testing, etc.
+                  Managed the maintenance and feature expansion of a real estate portfolio management app, OWNR by RENOSY, servicing a significant user base in Japan and China.
                 </li>
                 <li>
-                  Received basic training as a full stack developer in the use of ruby, ruby on rails, css, javascript, docker & shell scripting.
+                  Collaborated with iOS developers, server developers, and project managers in Japanese.
                 </li>
                 <li>
-                  Communicated about software development challenges in a foreign language, Japanese.
+                  Updated dependencies and libraries stagnant since 2018 to their latest versions as of 2023.
                 </li>
                 <li>
-                  Learnt about the real estate industry in Japan.
+                  Removed deprecated code and warnings from the app's codebase comprising hundreds of files.
+                </li>
+                <li>
+                  Received training as a full stack developer in the use of shell programming, JavaScript, CSS, Ruby, Ruby on Rails and PostGreSQL. (October 2020 - June 2021)
+                </li>
+                <br />
+                <li>
+                  Tech stack: <br />
+                  Kotlin, RxJava, Dagger, Retrofit, Git, GitHub, CircleCI, MVP architecture and clean architecture. <br />
+                  Conducted unit testing using JUnit and Mockito.
                 </li>
               </ul>`
       }
