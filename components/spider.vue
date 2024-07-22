@@ -11,7 +11,7 @@
     <v-avatar size="200" class="elevation-3" color="#FFB300">
       <img
         style="border: 5px solid #FFB300; height:200px; width:200px"
-        :src="require('~/assets/images/profile-picture.jpg')"
+        :src="require('~/assets/images/profile-picture.jpeg')"
       />
     </v-avatar>
   </div>
