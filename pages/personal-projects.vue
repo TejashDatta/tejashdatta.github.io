@@ -1,10 +1,6 @@
 <template>
   <div>
-    <h1 class="mb-5">Personal Projects</h1>
-    <strong class="mr-1">Note:</strong> Some sites may take a long time to
-    initially load due to being hosted on a free Heroku server.
-    <br />
-    <br />
+    <h1 class="mb-5">Projects</h1>
     <transition-group name="slide" tag="div" class="row">
       <v-col cols="12" sm="6" lg="4" v-for="project in projectsSlice" :key="project.name">
         <v-card height="100%" class="d-flex flex-column">
@@ -16,7 +12,7 @@
               target="_blank"
             >{{ project.name }}</component>
           </v-card-title>
-          <v-card-text class="pb-1 text-justify">
+          <v-card-text class="pb-1">
             {{ project.desc }}
             <br />
             <br />
@@ -98,6 +94,51 @@ export default {
     index: 0,
     projects: [
       {
+        name: "OWNR by RENOSY",
+        desc: `The real estate portfolio management app, with thousands of users in Japan and China, 
+        that I developed features for and maintained at my previous role as an android developer at GA Technologies.`,
+        tech: ["Android, Kotlin, RxJava, Dagger, MVP Architecture, clean architecture, Jetpack, Retrofit, Mockito"],
+        site: "https://play.google.com/store/apps/details?id=jp.co.ga_tech.insight.renosy",
+        github: null
+      },
+      {
+        name: "German Noun Highlighter (iOS App)",
+        desc: `An iOS app I made to highlight german nouns in a given text in different colors based on their genders.`,
+        tech: ["iOS, Swift, SwiftUI"],
+        site: null,
+        github: "https://github.com/TejashDatta/German-Noun-Highlighter"
+      },
+      {
+        name: "German Noun Highlighter (Chrome Extension)",
+        desc: `A chrome extension I made to highlight german nouns on a webpage in different colors based on their genders.`,
+        tech: ["JavaScript"],
+        site: "https://chromewebstore.google.com/detail/german-nouns-highlighter/cdjngdjjemoflkeppmidedobhcahoebf",
+        github: null
+      },
+      {
+        name: "GA App Training",
+        desc: `The training I received as an android developer at GA Technologies.
+        Includes 2 calculator apps I made with MVVM and MVP architectures, and an RSS reader app.`,
+        tech: ["Android, Kotlin, RxJava, Dagger, MVP, MVVM, LiveData, Retrofit, Mockito, GSON"],
+        site: null,
+        github: "https://github.com/TejashDatta/GA-App-Training"
+      },
+      {
+        name: "GA Bootcamp App",
+        desc: `A website I made using Ruby on Rails and PostgreSQL to demonstrate my ability to 
+        complete web development tasks independently at GA Technologies.`,
+        tech: ["Ruby, Ruby on Rails, RSpec, PostgreSQL, Docker"],
+        site: null,
+        github: "https://github.com/TejashDatta/bootcamp-app"
+      },
+      {
+        name: "GA Bootcamp",
+        desc: `The training I received to work at GA Technologies as a full stack developer.`,
+        tech: ["Ruby, Ruby on Rails, RSpec, PostgreSQL, Docker, Shell Programming, HTML, CSS, JavaScript, Git, Github"],
+        site: null,
+        github: "https://github.com/TejashDatta/bootcamp"
+      },
+      {
         name: "This site",
         desc: `This personal website was designed using Vue with Vuetify UI framework and then generated into static webpages using Nuxt.`,
         tech: ["Vue.js", "Vuetify", "Nuxt"],
@@ -138,7 +179,7 @@ export default {
       A full stack approach was followed where the back end runs on Node.js and stores data on a MongoDB database; 
       and the front end was made in React with Materialize CSS.`,
         tech: ["Node.js", "MongoDB", "ReactJS", "Materialize CSS"],
-        site: "http://pollopinion.herokuapp.com/",
+        site: null,
         github: "https://github.com/TejashDatta/poll-opinion"
       },
 
@@ -148,7 +189,7 @@ export default {
       Back end powered by Django and front end styled with Foundation6 CSS framework. Graph creation functionality
       implemented through Plot.ly graphing library for Python.`,
         tech: ["Django", "Foundation6 CSS", "Plot.ly"],
-        site: "http://graphstudio.herokuapp.com/",
+        site: null,
         github: "https://github.com/TejashDatta/data_visualisation"
       },
 
