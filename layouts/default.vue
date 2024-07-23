@@ -64,7 +64,7 @@ export default {
       links: [
         { label: "Overview", path: "/" },
         { label: "Work Experience", path: "/work-experience" },
-        { label: "Projects", path: "/personal-projects" },
+        { label: "Projects", path: "/projects" },
         { label: "Education", path: "/education" },
         { label: "Communication Skills", path: "/communication-skills" },
         { label: "Research Experience", path: "/research-experience" },

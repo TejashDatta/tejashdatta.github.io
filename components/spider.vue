@@ -21,7 +21,7 @@ export default {
   data: () => ({
     links: [
       { label: "Work Exp.", path: "/work-experience" },
-      { label: "Projects", path: "/personal-projects" },
+      { label: "Projects", path: "/projects" },
       { label: "Education", path: "/education" },
       {
         label: "Resume",

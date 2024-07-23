@@ -10,7 +10,7 @@
           Hi! I'm Tejash Datta. I'm a software engineer from Kolkata, India.
           I was previously <nuxt-link to="/work-experience">working as an android app developer</nuxt-link> at a product-based software company in Tokyo, Japan;
           before taking a break to focus on learning the German language full-time to accomplish my goal of moving to Germany. 
-          I've also made several <nuxt-link to="/personal-projects">professional and training-related projects.</nuxt-link>
+          I've also made several <nuxt-link to="/projects">professional and training-related projects.</nuxt-link>
           <br /><br />
           I aspire to utilize my skills and interest in software engineering to contribute to the development of purposeful applications; 
           while simultaneously exploring my interest in foreign cultures and languages. 
