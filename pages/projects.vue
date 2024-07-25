@@ -192,7 +192,15 @@ export default {
         site: null,
         github: "https://github.com/TejashDatta/data_visualisation"
       },
-
+      {
+        name: "Shape Dodge",
+        desc: `A fun game where players must dodge oncoming shapes by tilting their phone, 
+        while the fall becomes faster and faster. It used to be published on the Google Play Store but had to be removed 
+        because I lacked the time and motivation to maintain it.`,
+        tech: ["Unity game engine, C#"],
+        site: "https://youtu.be/6pYQxpdOLRc",
+        github: null
+      },
       {
         name: "Carsnet",
         desc: `A static website that provides information about supercars and presents their HD pictures in galleries
